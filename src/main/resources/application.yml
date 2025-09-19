@@ -16,6 +16,7 @@ server:
 springdoc:
   group-configs:
     - group: 'default'
+      paths-to-match: '/**'
       packages-to-scan: com.example.aicodesu.controller
 
 knife4j:
