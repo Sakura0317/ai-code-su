@@ -22,7 +22,8 @@ create table if not exists user
     createTime   datetime     default CURRENT_TIMESTAMP not null comment '创建时间',
     updateTime   datetime     default CURRENT_TIMESTAMP not null on update CURRENT_TIMESTAMP comment '更新时间',
     isDelete     tinyint      default 0                 not null comment '是否删除',
-    UNIQUE KEY uk_userAccount (userAccount),
-    INDEX idx_userName (userName)
+    UNIQUE KEY uk_userAccount (userAccount), -- 确保部署标识唯一
+    INDEX idx_userName (userName),           -- 提升基于应用名称的查询性能
+    INDEX idx_userId (userId)                -- 提升基于用户 ID 的查询性能
     ) comment '用户' collate = utf8mb4_unicode_ci;
 
