@@ -4,7 +4,7 @@ import com.example.aicodesu.model.dto.app.AppQueryRequest;
 import com.example.aicodesu.model.vo.AppVO;
 import com.mybatisflex.core.query.QueryWrapper;
 import com.mybatisflex.core.service.IService;
-import com.example.aicodesu.entity.App;
+import com.example.aicodesu.model.entity.App;
 
 import java.util.List;
 

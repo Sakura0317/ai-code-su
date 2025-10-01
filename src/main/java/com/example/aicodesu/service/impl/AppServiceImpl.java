@@ -11,7 +11,7 @@ import com.example.aicodesu.model.vo.UserVO;
 import com.example.aicodesu.service.UserService;
 import com.mybatisflex.core.query.QueryWrapper;
 import com.mybatisflex.spring.service.impl.ServiceImpl;
-import com.example.aicodesu.entity.App;
+import com.example.aicodesu.model.entity.App;
 import com.example.aicodesu.mapper.AppMapper;
 import com.example.aicodesu.service.AppService;
 import jakarta.annotation.Resource;

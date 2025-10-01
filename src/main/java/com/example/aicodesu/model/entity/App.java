@@ -1,4 +1,4 @@
-package com.example.aicodesu.entity;
+package com.example.aicodesu.model.entity;
 
 import com.mybatisflex.annotation.Column;
 import com.mybatisflex.annotation.Id;
@@ -35,7 +35,6 @@ public class App implements Serializable {
      */
     @Id(keyType = KeyType.Generator, value = KeyGenerators.snowFlakeId)
     private Long id;
-
 
     /**
      * 应用名称

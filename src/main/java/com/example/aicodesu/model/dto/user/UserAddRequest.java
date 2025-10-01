@@ -1,4 +1,4 @@
-package com.example.aicodesu.model.dto;
+package com.example.aicodesu.model.dto.user;
 
 import lombok.Data;
 

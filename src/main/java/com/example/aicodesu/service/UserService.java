@@ -1,5 +1,5 @@
 package com.example.aicodesu.service;
-import com.example.aicodesu.model.dto.UserQueryRequest;
+import com.example.aicodesu.model.dto.user.UserQueryRequest;
 import com.example.aicodesu.model.entity.User;
 import com.example.aicodesu.model.vo.LoginUserVO;
 import com.example.aicodesu.model.vo.UserVO;

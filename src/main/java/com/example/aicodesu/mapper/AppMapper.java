@@ -1,7 +1,7 @@
 package com.example.aicodesu.mapper;
 
 import com.mybatisflex.core.BaseMapper;
-import com.example.aicodesu.entity.App;
+import com.example.aicodesu.model.entity.App;
 
 /**
  * 应用 映射层。
